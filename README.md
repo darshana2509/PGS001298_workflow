@@ -15,11 +15,11 @@ The assignment includes:
 - Python 3 (Google Colab)
 - Pandas
 - Matplotlib
-- Bash (wget, gunzip)
+- wget
 - Google Cloud SDK (gsutil command only)
 
 ## How to Run
-Open the `analysis.ipynb` notebook either in Google Colab or locally using Jupyter.
+Open the `workflow.ipynb` notebook either in Google Colab or locally using Jupyter.
 
 Example:
 - Click: **Open in Colab**
