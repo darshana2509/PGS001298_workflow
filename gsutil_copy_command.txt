@@ -1,0 +1,14 @@
+gsutil -m cp -r gs://BucketA/P21 gs://BucketB/
+
+############# Use of the command ###############
+# gsutil = command-line tool used to interact with Google Cloud Storage (GCS).
+
+# -m = multithreading / multiprocessing
+
+# cp = copy
+
+# -r = recursive. Copies everything inside P21, including subfolders & files.
+
+# gs://BucketA/P21 = Source path in Google Cloud Storage. P21 is a folder inside BucketA.
+
+# gs://BucketB/ = Destination path. Everything from P21 will be copied into this bucket.
